@@ -53,8 +53,8 @@ public class A6Q4 {
         }
         //telling the user the marks in order
         System.out.println("The marks in order are: ");
-        for(int i = 0; i <marks.length; i ++){
-            System.out.println(marks[i] + " "); 
+        for (int i = 0; i < marks.length; i++) {
+            System.out.println(marks[i] + " ");
         }
     }
 }

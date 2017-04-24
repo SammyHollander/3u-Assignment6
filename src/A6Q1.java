@@ -41,8 +41,8 @@ public class A6Q1 {
             markSum = classSize[i] + markSum;
         }
         //averages all the marks by dividing by the number of students;
-        double markAv = markSum/ numStudents;
-        
+        double markAv = markSum / numStudents;
+
         //tell the user what the class average is (and round to two decimal places)
         System.out.printf("The class average is %.2f\n", markAv);
 

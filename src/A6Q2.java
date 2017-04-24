@@ -5,7 +5,6 @@ import java.util.Scanner;
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-
 /**
  *
  * @author holls9719
@@ -42,13 +41,13 @@ public class A6Q2 {
             heightSum = heights[i] + heightSum;
         }
         //averages all the heights by dividing by the number of people;
-        double heightAv = heightSum/ numPeople;
-        
+        double heightAv = heightSum / numPeople;
+
         //rounds the height average to two decimal places
-        heightAv = heightAv*100;
+        heightAv = heightAv * 100;
         heightAv = Math.round(heightAv);
-        heightAv = heightAv/100;
-        
+        heightAv = heightAv / 100;
+
         //tells the user what above average heights are
         System.out.println("The above average heights are:");
         //new counter to determine how many heights are above average
@@ -56,13 +55,13 @@ public class A6Q2 {
         //compares inputed heights to the average height
         for (int i = 0; i < numPeople; i++) {
             //prints the heights that are above average
-            if(heightAv < heights[i]){
+            if (heightAv < heights[i]) {
                 System.out.println(heights[i]);
-                count = count +1;
+                count = count + 1;
             }
         }
         //just in case they are all the exact same height, then no heights will be above average
-        if(count == 0){
+        if (count == 0) {
             System.out.println("Sorry, but no heights were above average.");
         }
     }

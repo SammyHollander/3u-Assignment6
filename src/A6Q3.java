@@ -43,7 +43,7 @@ public class A6Q3 {
 
             A[0] = B[0];
             A[1] = B[1];
-            
+
             //print them out in order
             System.out.println("The two values in order are: ");
             for (int i = 0; i < A.length; i++) {

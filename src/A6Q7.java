@@ -62,18 +62,18 @@ public class A6Q7 {
 
         }
         //create a new array to store the prime values that only has as many spaces as prime values
-        int primeNum[] = new int [count];
-        
+        int primeNum[] = new int[count];
+
         //fill the primNum array witht the prime number values in the prime array
         //the '-2' is so that 999 and 1000 are not included,(for some reason they are...)
-        for (int i = 0; i < count-2; i++) {
+        for (int i = 0; i < count - 2; i++) {
             primeNum[i] = prime[i];
         }
-        
-        
+
+
         //tell the user the prime values
         System.out.println("prime values between two and a thousand are: ");
-        for (int i = 0; i < count-2; i++) {
+        for (int i = 0; i < count - 2; i++) {
             System.out.println(primeNum[i]);
 
         }
